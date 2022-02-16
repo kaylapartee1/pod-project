@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(132, 54, 148);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(132, 54, 148);
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(132, 54, 148);
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a class="active" href="res.html">Contact</a></li>
+        </ul>
+      </nav>
+
+<div class="about-section">
+  <h1>About Me</h1>
+  <p>Below are just a few random, fun facts about me.</p>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="nails.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Halloween Theme Nails</h2>
+        <p>I love trying new cosmetic styles!</p>
+        <p>This was a Halloween style I did!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="candle.jpeg" alt="St" style="width:100%">
+      <div class="container">
+        <h2>Candles</h2>
+        <p>I LOVE candles! This was m favorite one yet, a strabwerry creme scented candle.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="Boss.png" alt="Boss" style="width:100%">
+      <div class="container">
+        <h2>Boss Partee</h2>
+        <p>This is my dog, Boss.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<footer>
+    <p>Site Creator: Kayla Partee<br>
+    <a href="mailto:kaylaaaa01@gmail.com">kaylaaaa01@gmail.com</a></p>
+  </footer>
+
+</html>
+
