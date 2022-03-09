@@ -42,7 +42,7 @@ a.active, a:hover{
   transition: .5s;
 }
 footer{
-  background: rgb(90, 6, 105);
+  background-color: pink;
   height: 80px;
   width: 100%;
   font-weight: bold;
